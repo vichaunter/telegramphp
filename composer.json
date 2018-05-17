@@ -1,0 +1,26 @@
+{
+    "name": "vichaunter/telegramphp",
+    "description": "Telegram api/bot for php",
+    "require": {
+        "php": "^7.2",
+        "ext-PDO": "^7.2",
+        "ext-curl": "^7.2",
+        "ext-mbstring": "^7.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "tracy/tracy": "^2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VicHaunter",
+            "email": "vichaunter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VicHaunter\\Telegram\\":"src/"
+        }
+    }
+}
